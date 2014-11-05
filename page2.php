@@ -105,6 +105,7 @@ WHERE NOT firstName LIKE \'%ar%\';';
         ?>
 
         <?php
+        
         //close db
         $db = null;
         ?>
