@@ -38,7 +38,7 @@ regionId int NOT NULL
         $sql = 'DROP TABLE nation';
         query($sql);
         ?>
-
+        
         <h3>Write an SQL statement to create a table "nation" as before but this time make countryId a primary key.</h3>
         <?php
         $sql = 'CREATE TABLE IF NOT EXISTS nation ( 
