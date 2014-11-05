@@ -1,5 +1,9 @@
 <?php
-
+/**
+ * Init database
+ * @global PDO $db
+ * @throws Exception
+ */
 function initDB() {
     global $db;
     //hard coded values only for these exercises, will should use config
